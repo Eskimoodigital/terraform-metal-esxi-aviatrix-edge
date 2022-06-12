@@ -1,5 +1,5 @@
-metal_project_name = "Aviatrix Edge"
-metro              = "sy"
+metal_project_name = "Secure Edge Testing"
+metro              = "fr"
 plan               = "c3.small.x86"
 os                 = "vmware_esxi_7_0"
 esx_hostname       = "esx-edge-01"
