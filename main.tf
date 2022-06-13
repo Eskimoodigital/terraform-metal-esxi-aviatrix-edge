@@ -11,6 +11,7 @@ resource "metal_device" "this" {
   operating_system = var.os
   billing_cycle    = var.billing
   project_id       = data.metal_project.this.id
+  no_ssh_keys      = true
 }
 
 # Set Network to Hybrid
