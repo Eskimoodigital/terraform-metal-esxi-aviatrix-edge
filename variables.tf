@@ -9,6 +9,12 @@ variable "metro" {
   default     = "sy"
 }
 
+variable "sshkeys" {
+  description = "SSH Keys"
+  type        = string
+  default     = "SecureEdgeSSH"
+}
+
 variable "plan" {
   description = "Server config"
   type        = string
