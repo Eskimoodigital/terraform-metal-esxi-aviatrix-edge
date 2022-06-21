@@ -6,7 +6,7 @@ variable "metal_project_name" {
 variable "metro" {
   description = "Location code"
   type        = string
-  default     = "sy"
+  default     = "fr"
 }
 
 variable "sshkeys" {
